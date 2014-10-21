@@ -12,7 +12,7 @@ Importing in Intellij IDEA / Android Studio :
 Importing in Eclipse :
 ----------------------
 
-- No idea, you will probable need the ADT plugin, and a Gradle plugin
+- No idea, you will probably need the ADT plugin, and a Gradle plugin
 
 Use without IDE :
 -----------------
@@ -213,3 +213,86 @@ Python 2.7 and PIL are needed (build_gfx.py) You may include it to your gradle b
 Assets like .fnt may still have to be resized manually
 
 **This means my apk will contains 3 times the same assets in different resolutions :** **YES**
+
+Translations :
+--------------
+
+System settings will be used to determine the user language. English is the default language.
+Create translation files in assets/data/translations to handle more translations !
+
+Example :
+---------
+
+**lang-en.xml**
+```xml
+<english>
+
+    <!-- General -->
+    <entry key = "yes"     content = "Yes"/>
+    <entry key = "no"      content = "No"/>
+
+    <!-- Scene -->
+    <entry key = "switchA" content = "Switch to scene A (Slide Transition)"/>
+    <entry key = "switchB" content = "Switch to scene B (Fade Transition)"/>
+
+</english>
+```
+
+**lang-fr.xml**
+```xml
+<french>
+
+    <!-- General -->
+    <entry key = "yes"     content = "Oui"/>
+    <entry key = "no"      content = "Non"/>
+
+    <!-- Scene -->
+    <entry key = "switchA" content = "Changer pour la scene A (Slide Transition)"/>
+    <entry key = "switchB" content = "Changer pour la scene B (Fade Transition)"/>
+
+</french>
+```
+
+Then to get a string, use the key :
+
+```java
+    StringManager.getString("yes");
+```
+
+This will return 'oui' if systems settings are in French for example.
+Of course, it will work on Android.
+
+You may use format expression for more advanced strings :
+
+Example :
+---------
+
+```xml
+<english>
+    <entry key = "red"  content = "red"/>
+    <entry key = "car"  content = "I want a %s car"/>
+<english>
+```
+
+```xml
+<french>
+    <entry key = "red"  content = "rouge"/>
+    <entry key = "car"  content = "Je veux une voiture %s"/>
+<french>
+```
+
+Then :
+
+```java
+    String adjective = StringManager.getString("red");
+    String.format(StringManager.getString("car"), adjective);
+```
+
+
+
+
+
+
+
+
+
