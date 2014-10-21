@@ -4,6 +4,22 @@ Khopa LibGDX Codebase
 This is my personnal codebase for libgdx based projects.
 Feel free to use if you like it, but it may not be fully documented, nor tested.
 
+Importing in Intellij IDEA / Android Studio :
+---------------------------------------------
+
+- File/Import Projet and select the build.gradle file. (Nothing more to do, just wait for the IDE to resolve dependencies)
+
+Importing in Eclipse :
+----------------------
+
+- No idea, you will probable need the ADT plugin, and a Gradle plugin
+
+Use without IDE :
+-----------------
+
+- Use the gradle files to build the project
+
+
 Features :
 ----------
 
