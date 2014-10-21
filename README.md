@@ -284,6 +284,9 @@ Then :
 ```
 
 
+**Be aware that if you plan to display specials characters : such as 'é' or 'ö', 'か','日', '本' ... etc
+You'll need to have this characters available in your bitmap fonts files !**
+
 
 
 
