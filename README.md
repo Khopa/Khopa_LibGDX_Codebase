@@ -1,7 +1,7 @@
 Khopa LibGDX Codebase
 =====================
 
-This is my personnal codebase for libgdx based projects
+This is my personnal codebase for libgdx based projects.
 Feel free to use if you like it, but it may not be fully documented, nor tested.
 
 Features :
@@ -158,8 +158,55 @@ This is usefull to re-position actors and ui to fit differents screens layouts
 
 *How does it work ? :*
 The **MBC** trigger this events after screen resizing.
-For example, if width become higher than height, a "onOrientationChangedToLandscape" event will be triggered.
+For example, if the screen width becomes higher than the screen height, a "onOrientationChangedToLandscape" event will be triggered.
 This is a bit hacky, but very convenient since you will be able to trigger the event on desktop by resizing the lwgl frame
+
+Managing different screen resolution and device graphic capabilities :
+----------------------------------------------------------------------
+
+The latest libgdx version introduced the very convenient viewport classes. However, some devices may not be able to load high resolution graphics.
+
+This codebase provide a way to resolve this problem, allowing you to use very high resolution graphics on high end devices while still being able to support low-cost/old devices.
+
+You will have to organize graphics ressources in your folders like that
+
+assets/data/gfx/hd
+assets/data/gfx/md
+assets/data/gfx/ld
+
+- HD -> Texture UP to 2048*2048, Virtual Screen Size of (2000*1100)
+- MD -> Texture UP to 2048*2048, Virtual Screen Size of (1000*550)
+- LD -> Texture UP to 2048*2048, Virtual Screen Size of (500*275)
+
+To access the best resource to use for this device, you may then use the PathResolver (PR) class :
+
+```java
+
+PR.treat("my_nice_asset.png")
+
+// Will return 'assets/data/gfx/hd/my_nice_asset.png' on Galaxy S4 
+// or 'assets/data/gfx/md/my_nice_asset.png' on an old LG Optimus Black
+
+```
+
+A convenient python script to resize assets (.png Images and .pack TextureAtlas files) is available in the assets folder
+Python 2.7 and PIL are needed
+
+Assets like .fnt may still have to be resized manually
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
