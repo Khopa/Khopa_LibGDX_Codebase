@@ -1,0 +1,28 @@
+<english>
+
+    <!-- General -->
+    <entry key = "yes"     content = "Yes"/>
+    <entry key = "no"      content = "No"/>
+    <entry key = "apply"   content = "Apply"/>
+    <entry key = "buy"     content = "Buy"/>
+    <entry key = "sell"    content = "Sell"/>
+
+	<entry key = "levels"     content = "Levels"/>
+
+    <!-- Menu Stuff -->
+    <entry key = "menu"     content = "Menu"/>
+    <entry key = "resume"   content = "Resume"/>
+    <entry key = "restart"  content = "Restart"/>
+    <entry key = "backmenu" content = "Back to menu"/>
+
+    <!-- Victory -->
+    <entry key = "youwon"     content = "You won !"/>
+    <entry key = "nextlevel"     content = "Next level"/>
+
+	<!-- Option Menu -->
+	<entry key = "sfxVolume"   content = "Sound volume"/>
+	<entry key = "musicVolume" content = "Music volume"/>
+	<entry key = "debug" content = "Debug mode"/>
+    <entry key = "particles" content = "Particles effects"/>
+
+</english>

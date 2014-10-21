@@ -1,0 +1,199 @@
+
+entities.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+murene
+  rotate: false
+  xy: 1, 1543
+  size: 1100, 256
+  orig: 1100, 256
+  offset: 0, 0
+  index: -1
+JellyFish0000
+  rotate: false
+  xy: 1, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+JellyFish0004
+  rotate: false
+  xy: 1, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+JellyFish0008
+  rotate: false
+  xy: 1, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0000
+  rotate: false
+  xy: 1, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0012
+  rotate: false
+  xy: 1, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+JellyFish0001
+  rotate: false
+  xy: 1, 515
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+JellyFish0003
+  rotate: false
+  xy: 1, 515
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+JellyFish0002
+  rotate: false
+  xy: 515, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+JellyFish0005
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+JellyFish0007
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+JellyFish0006
+  rotate: false
+  xy: 515, 515
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0001
+  rotate: false
+  xy: 515, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0011
+  rotate: false
+  xy: 515, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0002
+  rotate: false
+  xy: 1103, 1287
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0010
+  rotate: false
+  xy: 1103, 1287
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0003
+  rotate: false
+  xy: 1029, 773
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0009
+  rotate: false
+  xy: 1029, 773
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0004
+  rotate: false
+  xy: 1029, 259
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0008
+  rotate: false
+  xy: 1029, 259
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+medusa
+  rotate: false
+  xy: 1617, 1543
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+
+entities2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Sploush0005
+  rotate: false
+  xy: 1, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0007
+  rotate: false
+  xy: 1, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0006
+  rotate: false
+  xy: 1, 515
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0013
+  rotate: false
+  xy: 515, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0015
+  rotate: false
+  xy: 515, 1029
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Sploush0014
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1

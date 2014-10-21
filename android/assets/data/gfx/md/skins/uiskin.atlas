@@ -1,0 +1,299 @@
+
+uiskin.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+start_button
+  rotate: false
+  xy: 0, 329
+  size: 320, 182
+  orig: 320, 182
+  offset: 0, 0
+  index: 0
+start_button_down
+  rotate: false
+  xy: 0, 146
+  size: 320, 182
+  orig: 320, 182
+  offset: 0, 0
+  index: 0
+exit
+  rotate: false
+  xy: 321, 393
+  size: 320, 118
+  orig: 320, 118
+  offset: 0, 0
+  index: 0
+exit_down
+  rotate: false
+  xy: 0, 27
+  size: 320, 118
+  orig: 320, 118
+  offset: 0, 0
+  index: 0
+achieve_button
+  rotate: false
+  xy: 321, 317
+  size: 320, 75
+  orig: 320, 75
+  offset: 0, 0
+  index: 0
+achieve_button_down
+  rotate: false
+  xy: 642, 436
+  size: 320, 75
+  orig: 320, 75
+  offset: 0, 0
+  index: 0
+leader_button
+  rotate: false
+  xy: 321, 241
+  size: 320, 75
+  orig: 320, 75
+  offset: 0, 0
+  index: 0
+leader_button_down
+  rotate: false
+  xy: 642, 360
+  size: 320, 75
+  orig: 320, 75
+  offset: 0, 0
+  index: 0
+choice
+  rotate: false
+  xy: 321, 188
+  size: 271, 51
+  orig: 271, 51
+  offset: 0, 0
+  index: 0
+choiceDown
+  rotate: false
+  xy: 642, 308
+  size: 271, 51
+  orig: 271, 51
+  offset: 0, 0
+  index: 0
+labelChoice
+  rotate: false
+  xy: 321, 139
+  size: 225, 48
+  orig: 225, 48
+  offset: 0, 0
+  index: 0
+default-slider
+  rotate: false
+  xy: 0, 0
+  size: 113, 25
+  orig: 113, 25
+  offset: 0, 0
+  index: 0
+round
+  rotate: false
+  xy: 321, 31
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: 0
+textfield
+  rotate: false
+  xy: 642, 264
+  size: 123, 42
+  orig: 123, 42
+  offset: 0, 0
+  index: 0
+default-round-down
+  rotate: false
+  xy: 429, 57
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+check-off
+  rotate: false
+  xy: 766, 263
+  size: 88, 44
+  orig: 88, 44
+  offset: 0, 0
+  index: 0
+default-round-error-down
+  rotate: false
+  xy: 510, 57
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+nextButton
+  rotate: false
+  xy: 548, 139
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+check-on
+  rotate: false
+  xy: 429, 12
+  size: 88, 44
+  orig: 88, 44
+  offset: 0, 0
+  index: 0
+default-round-error
+  rotate: false
+  xy: 642, 183
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+default-round
+  rotate: false
+  xy: 724, 181
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+scroll-button-down
+  rotate: false
+  xy: 805, 184
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: 0
+default-window
+  rotate: false
+  xy: 915, 295
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+nextButtonDown
+  rotate: false
+  xy: 963, 463
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+prevButton
+  rotate: false
+  xy: 963, 413
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+prevButtonDown
+  rotate: false
+  xy: 963, 364
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+scroll-button
+  rotate: false
+  xy: 884, 216
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: 0
+tree-minus
+  rotate: false
+  xy: 518, 8
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+default-slider-knob
+  rotate: false
+  xy: 114, 0
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: 0
+tree-plus
+  rotate: false
+  xy: 884, 167
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+default-scroll
+  rotate: false
+  xy: 594, 208
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+default-select
+  rotate: false
+  xy: 856, 297
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: 0
+default-splitpane-vertical
+  rotate: false
+  xy: 321, 29
+  size: 8, 1
+  orig: 8, 1
+  offset: 0, 0
+  index: 0
+default-splitpane
+  rotate: false
+  xy: 592, 129
+  size: 1, 8
+  orig: 1, 8
+  offset: 0, 0
+  index: 0
+default-pane
+  rotate: false
+  xy: 1013, 510
+  size: 2, 1
+  orig: 2, 1
+  offset: 0, 0
+  index: 0
+cursor
+  rotate: false
+  xy: 963, 361
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: 0
+default-rect-down
+  rotate: false
+  xy: 963, 293
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: 0
+default-rect
+  rotate: false
+  xy: 568, 55
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: 0
+default-select-selection
+  rotate: false
+  xy: 144, 24
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: 0
+default-pane-noborder
+  rotate: false
+  xy: 724, 263
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0
+selection
+  rotate: false
+  xy: 725, 263
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0
+white
+  rotate: false
+  xy: 727, 263
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0

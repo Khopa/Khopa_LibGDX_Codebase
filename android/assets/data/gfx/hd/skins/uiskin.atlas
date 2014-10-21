@@ -1,0 +1,299 @@
+
+uiskin.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+start_button
+  rotate: false
+  xy: 1, 659
+  size: 640, 364
+  orig: 640, 364
+  offset: 0, 0
+  index: -1
+start_button_down
+  rotate: false
+  xy: 1, 293
+  size: 640, 364
+  orig: 640, 364
+  offset: 0, 0
+  index: -1
+exit
+  rotate: false
+  xy: 643, 786
+  size: 640, 237
+  orig: 640, 237
+  offset: 0, 0
+  index: -1
+exit_down
+  rotate: false
+  xy: 1, 54
+  size: 640, 237
+  orig: 640, 237
+  offset: 0, 0
+  index: -1
+achieve_button
+  rotate: false
+  xy: 643, 634
+  size: 640, 150
+  orig: 640, 150
+  offset: 0, 0
+  index: -1
+achieve_button_down
+  rotate: false
+  xy: 1285, 873
+  size: 640, 150
+  orig: 640, 150
+  offset: 0, 0
+  index: -1
+leader_button
+  rotate: false
+  xy: 643, 482
+  size: 640, 150
+  orig: 640, 150
+  offset: 0, 0
+  index: -1
+leader_button_down
+  rotate: false
+  xy: 1285, 721
+  size: 640, 150
+  orig: 640, 150
+  offset: 0, 0
+  index: -1
+choice
+  rotate: false
+  xy: 643, 377
+  size: 543, 103
+  orig: 543, 103
+  offset: 0, 0
+  index: -1
+choiceDown
+  rotate: false
+  xy: 1285, 616
+  size: 543, 103
+  orig: 543, 103
+  offset: 0, 0
+  index: -1
+labelChoice
+  rotate: false
+  xy: 643, 278
+  size: 451, 97
+  orig: 451, 97
+  offset: 0, 0
+  index: -1
+default-slider
+  rotate: false
+  xy: 1, 1
+  size: 226, 51
+  orig: 226, 51
+  offset: 0, 0
+  index: -1
+round
+  rotate: false
+  xy: 643, 63
+  size: 213, 213
+  orig: 213, 213
+  offset: 0, 0
+  index: -1
+textfield
+  rotate: false
+  xy: 1285, 529
+  size: 246, 85
+  orig: 246, 85
+  offset: 0, 0
+  index: -1
+default-round-down
+  rotate: false
+  xy: 858, 115
+  size: 161, 161
+  orig: 161, 161
+  offset: 0, 0
+  index: -1
+check-off
+  rotate: false
+  xy: 1533, 526
+  size: 177, 88
+  orig: 177, 88
+  offset: 0, 0
+  index: -1
+default-round-error-down
+  rotate: false
+  xy: 1021, 115
+  size: 161, 161
+  orig: 161, 161
+  offset: 0, 0
+  index: -1
+nextButton
+  rotate: false
+  xy: 1096, 278
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+check-on
+  rotate: false
+  xy: 858, 25
+  size: 177, 88
+  orig: 177, 88
+  offset: 0, 0
+  index: -1
+default-round-error
+  rotate: false
+  xy: 1285, 366
+  size: 161, 161
+  orig: 161, 161
+  offset: 0, 0
+  index: -1
+default-round
+  rotate: false
+  xy: 1448, 363
+  size: 161, 161
+  orig: 161, 161
+  offset: 0, 0
+  index: -1
+scroll-button-down
+  rotate: false
+  xy: 1611, 368
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1
+default-window
+  rotate: false
+  xy: 1830, 591
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+nextButtonDown
+  rotate: false
+  xy: 1927, 926
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+prevButton
+  rotate: false
+  xy: 1927, 827
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+prevButtonDown
+  rotate: false
+  xy: 1927, 728
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+scroll-button
+  rotate: false
+  xy: 1769, 433
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1
+tree-minus
+  rotate: false
+  xy: 1037, 16
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+default-slider-knob
+  rotate: false
+  xy: 229, 1
+  size: 57, 51
+  orig: 57, 51
+  offset: 0, 0
+  index: -1
+tree-plus
+  rotate: false
+  xy: 1769, 334
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+default-scroll
+  rotate: false
+  xy: 1188, 416
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+default-select
+  rotate: false
+  xy: 1712, 594
+  size: 27, 20
+  orig: 27, 20
+  offset: 0, 0
+  index: -1
+default-splitpane-vertical
+  rotate: false
+  xy: 643, 58
+  size: 17, 3
+  orig: 17, 3
+  offset: 0, 0
+  index: -1
+default-splitpane
+  rotate: false
+  xy: 1184, 259
+  size: 3, 17
+  orig: 3, 17
+  offset: 0, 0
+  index: -1
+default-pane
+  rotate: false
+  xy: 2026, 1020
+  size: 5, 3
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 1927, 723
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-rect-down
+  rotate: false
+  xy: 1927, 586
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-rect
+  rotate: false
+  xy: 1136, 110
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-select-selection
+  rotate: false
+  xy: 288, 49
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-pane-noborder
+  rotate: false
+  xy: 1448, 526
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+selection
+  rotate: false
+  xy: 1451, 526
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 1454, 526
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,299 @@
+
+uiskin.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+start_button
+  rotate: false
+  xy: 0, 164
+  size: 160, 91
+  orig: 160, 91
+  offset: 0, 0
+  index: 0
+start_button_down
+  rotate: false
+  xy: 0, 73
+  size: 160, 91
+  orig: 160, 91
+  offset: 0, 0
+  index: 0
+exit
+  rotate: false
+  xy: 160, 196
+  size: 160, 59
+  orig: 160, 59
+  offset: 0, 0
+  index: 0
+exit_down
+  rotate: false
+  xy: 0, 13
+  size: 160, 59
+  orig: 160, 59
+  offset: 0, 0
+  index: 0
+achieve_button
+  rotate: false
+  xy: 160, 158
+  size: 160, 37
+  orig: 160, 37
+  offset: 0, 0
+  index: 0
+achieve_button_down
+  rotate: false
+  xy: 321, 218
+  size: 160, 37
+  orig: 160, 37
+  offset: 0, 0
+  index: 0
+leader_button
+  rotate: false
+  xy: 160, 120
+  size: 160, 37
+  orig: 160, 37
+  offset: 0, 0
+  index: 0
+leader_button_down
+  rotate: false
+  xy: 321, 180
+  size: 160, 37
+  orig: 160, 37
+  offset: 0, 0
+  index: 0
+choice
+  rotate: false
+  xy: 160, 94
+  size: 135, 25
+  orig: 135, 25
+  offset: 0, 0
+  index: 0
+choiceDown
+  rotate: false
+  xy: 321, 154
+  size: 135, 25
+  orig: 135, 25
+  offset: 0, 0
+  index: 0
+labelChoice
+  rotate: false
+  xy: 160, 69
+  size: 112, 24
+  orig: 112, 24
+  offset: 0, 0
+  index: 0
+default-slider
+  rotate: false
+  xy: 0, 0
+  size: 56, 12
+  orig: 56, 12
+  offset: 0, 0
+  index: 0
+round
+  rotate: false
+  xy: 160, 15
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: 0
+textfield
+  rotate: false
+  xy: 321, 132
+  size: 61, 21
+  orig: 61, 21
+  offset: 0, 0
+  index: 0
+default-round-down
+  rotate: false
+  xy: 214, 28
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 0
+check-off
+  rotate: false
+  xy: 383, 131
+  size: 44, 22
+  orig: 44, 22
+  offset: 0, 0
+  index: 0
+default-round-error-down
+  rotate: false
+  xy: 255, 28
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 0
+nextButton
+  rotate: false
+  xy: 274, 69
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+check-on
+  rotate: false
+  xy: 214, 6
+  size: 44, 22
+  orig: 44, 22
+  offset: 0, 0
+  index: 0
+default-round-error
+  rotate: false
+  xy: 321, 91
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 0
+default-round
+  rotate: false
+  xy: 362, 90
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 0
+scroll-button-down
+  rotate: false
+  xy: 402, 92
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: 0
+default-window
+  rotate: false
+  xy: 457, 147
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+nextButtonDown
+  rotate: false
+  xy: 481, 231
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+prevButton
+  rotate: false
+  xy: 481, 206
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+prevButtonDown
+  rotate: false
+  xy: 481, 182
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+scroll-button
+  rotate: false
+  xy: 442, 108
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: 0
+tree-minus
+  rotate: false
+  xy: 259, 4
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+default-slider-knob
+  rotate: false
+  xy: 57, 0
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: 0
+tree-plus
+  rotate: false
+  xy: 442, 83
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+default-scroll
+  rotate: false
+  xy: 297, 104
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 0
+default-select
+  rotate: false
+  xy: 428, 148
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: 0
+default-splitpane-vertical
+  rotate: false
+  xy: 160, 14
+  size: 4, 0
+  orig: 4, 0
+  offset: 0, 0
+  index: 0
+default-splitpane
+  rotate: false
+  xy: 296, 64
+  size: 0, 4
+  orig: 0, 4
+  offset: 0, 0
+  index: 0
+default-pane
+  rotate: false
+  xy: 506, 255
+  size: 1, 0
+  orig: 1, 0
+  offset: 0, 0
+  index: 0
+cursor
+  rotate: false
+  xy: 481, 180
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0
+default-rect-down
+  rotate: false
+  xy: 481, 146
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0
+default-rect
+  rotate: false
+  xy: 284, 27
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0
+default-select-selection
+  rotate: false
+  xy: 72, 12
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0
+default-pane-noborder
+  rotate: false
+  xy: 362, 131
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0
+selection
+  rotate: false
+  xy: 362, 131
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0
+white
+  rotate: false
+  xy: 363, 131
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: 0

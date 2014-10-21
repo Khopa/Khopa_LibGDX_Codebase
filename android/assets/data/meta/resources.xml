@@ -1,0 +1,22 @@
+<Resources>
+
+    <!--
+    This file is used to list the resource you need to load at startup
+    Of course, if you write your own custom loader for the libgdx assetmanager,
+    it will also work (but you have to register the loader into the asset manager manually currently)
+    (See ResourceManager.init())
+    -->
+
+    <Resource>
+        <Class>com.badlogic.gdx.graphics.g2d.TextureAtlas</Class>
+        <Path withResolver="true">sheets/entities.pack</Path>
+    </Resource>
+
+    <!--
+    With resolver = true, means that according to the device used, the loaded resource
+    will be loaded from either data/gfx/hd or data/gfx/md or data/gfx/sd according to
+    the device graphic capabilities (Some device may not be able to load 2048px textures
+    for example.)
+    -->
+
+</Resources>

@@ -1,0 +1,25 @@
+<french>
+
+    <!-- General -->
+    <entry key = "yes"     content = "Oui"/>
+    <entry key = "no"      content = "Non"/>
+
+    <entry key = "levels"   content = "Niveaux"/>
+
+    <!-- Menu Stuff -->
+	<entry key = "menu"     content = "Menu"/>
+	<entry key = "resume"   content = "Reprendre"/>
+    <entry key = "restart"  content = "Recommencer"/>
+	<entry key = "backmenu" content = "Retour au menu"/>
+
+    <!-- Victory -->
+    <entry key = "youwon"     content = "Vous avez gagné !"/>
+    <entry key = "nextlevel"     content = "Niveau Suivant"/>
+
+	<!-- Option Menu -->
+	<entry key = "sfxVolume"   content = "Volume effets"/>
+	<entry key = "musicVolume" content = "Volume musique"/>
+	<entry key = "debug" content = "Mode debug"/>
+    <entry key = "particles" content = "Effets de particules"/>
+
+</french>
