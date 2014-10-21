@@ -46,8 +46,8 @@ Philosophy :
 See for yourself here : "https://github.com/Khopa/Khopa_LibGDX_Codebase/tree/master/core/src/com/khopa/codebase/impl"
 
 
-Quick example :
----------------
+Quick features overview :
+-------------------------
 
 ```java
 package com.khopa.codebase.impl;
@@ -220,8 +220,7 @@ Translations :
 System settings will be used to determine the user language. English is the default language.
 Create translation files in assets/data/translations to handle more translations !
 
-Example :
----------
+**Example :**
 
 **lang-en.xml**
 ```xml
@@ -264,8 +263,7 @@ Of course, it will work on Android.
 
 You may use format expression for more advanced strings :
 
-Example :
----------
+**Example :**
 
 ```xml
 <english>
