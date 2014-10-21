@@ -161,12 +161,14 @@ The **MBC** trigger this events after screen resizing.
 For example, if the screen width becomes higher than the screen height, a "onOrientationChangedToLandscape" event will be triggered.
 This is a bit hacky, but very convenient since you will be able to trigger the event on desktop by resizing the lwgl frame
 
-Managing different screen resolution and device graphic capabilities :
+Managing different screen resolutions and device graphic capabilities :
 ----------------------------------------------------------------------
 
-The latest libgdx version introduced the very convenient viewport classes. However, some devices may not be able to load high resolution graphics.
+The latest libgdx versions introduced the very convenient viewport classes. So working in a very high resolution virtual screen size is possible.,
 
-This codebase provide a way to resolve this problem, allowing you to use very high resolution graphics on high end devices while still being able to support low-cost/old devices.
+However, some devices may not be able to load high resolution graphics, and it will result in 'white' texture if you load too high resolution textures (which are needed for high resolution screens).
+
+This codebase provide a way to resolve this problem, allowing you to use very high resolution graphics on high end devices while still being able to support low-cost/old devices by using resized smaller textures.
 
 You will have to organize graphics ressources in your folders like that
 
@@ -175,8 +177,8 @@ assets/data/gfx/md
 assets/data/gfx/ld
 
 - HD -> Texture UP to 2048*2048, Virtual Screen Size of (2000*1100)
-- MD -> Texture UP to 2048*2048, Virtual Screen Size of (1000*550)
-- LD -> Texture UP to 2048*2048, Virtual Screen Size of (500*275)
+- MD -> Texture UP to 1024*1024, Virtual Screen Size of (1000*550)
+- LD -> Texture UP to 512*512,   Virtual Screen Size of (500*275)
 
 To access the best resource to use for this device, you may then use the PathResolver (PR) class :
 
@@ -185,29 +187,13 @@ To access the best resource to use for this device, you may then use the PathRes
 PR.treat("my_nice_asset.png")
 
 // Will return 'assets/data/gfx/hd/my_nice_asset.png' on Galaxy S4 
-// or 'assets/data/gfx/md/my_nice_asset.png' on an old LG Optimus Black
+// or 'assets/data/gfx/md/my_nice_asset.png' on an old LG Optimus Black for instance
 
 ```
 
 A convenient python script to resize assets (.png Images and .pack TextureAtlas files) is available in the assets folder
-Python 2.7 and PIL are needed
+Python 2.7 and PIL are needed (build_gfx.py) You may include it to your gradle build.
 
 Assets like .fnt may still have to be resized manually
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**This means my apk will contains 3 times the same assets in different resolutions :** **YES**
