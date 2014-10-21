@@ -5,6 +5,10 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.khopa.core.services.graphic.controllers.DefinitionService;
 
+/**
+ * This load the application ui skin and makes it available to the whole application
+ * through : SkinService.getSkin()
+ */
 public class SkinService {
 
 	protected static Skin skin;

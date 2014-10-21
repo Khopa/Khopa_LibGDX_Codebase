@@ -1,0 +1,48 @@
+
+backgrounds.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 1, 1
+  size: 1100, 2000
+  orig: 1100, 2000
+  offset: 0, 0
+  index: -1
+
+backgrounds2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background_landscape
+  rotate: false
+  xy: 1, 1
+  size: 2000, 1100
+  orig: 2000, 1100
+  offset: 0, 0
+  index: -1
+
+backgrounds3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+board
+  rotate: false
+  xy: 1, 1
+  size: 1100, 2000
+  orig: 1100, 2000
+  offset: 0, 0
+  index: -1
+
+backgrounds4.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+board_landscape
+  rotate: false
+  xy: 1, 1
+  size: 2000, 1100
+  orig: 2000, 1100
+  offset: 0, 0
+  index: -1

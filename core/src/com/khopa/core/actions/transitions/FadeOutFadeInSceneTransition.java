@@ -2,7 +2,6 @@ package com.khopa.core.actions.transitions;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
-import com.khopa.core.controllers.animation.transition.Transitions;
 import com.khopa.core.views.scene.Scene;
 
 public class FadeOutFadeInSceneTransition extends SceneTransitionAction {

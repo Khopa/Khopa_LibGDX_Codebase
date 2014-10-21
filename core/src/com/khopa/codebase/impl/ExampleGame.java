@@ -1,27 +1,34 @@
 package com.khopa.codebase.impl;
 
-import com.badlogic.gdx.ApplicationAdapter;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.khopa.core.ActionResolver;
+import com.khopa.core.MBC;
+import com.khopa.core.views.scene.Scene;
 
-public class ExampleGame extends ApplicationAdapter {
-	SpriteBatch batch;
-	Texture img;
-	
-	@Override
-	public void create () {
-		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
-	}
 
-	@Override
-	public void render () {
-		Gdx.gl.glClearColor(1, 0, 0, 1);
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		batch.begin();
-		batch.draw(img, 0, 0);
-		batch.end();
-	}
+/**
+ *
+ * As you constantly have to write the same code here, i extracted it
+ * to 'MBC' class (Main Base Class)
+ *
+ * To access the game single instance, use MBC.getInstance()
+ *
+ */
+public class ExampleGame extends MBC {
+
+    public ExampleGame() {
+        super(null);
+    }
+
+    /**
+     * Pass an action resolver if you need to call platform specific stuff
+     */
+    public ExampleGame(ActionResolver resolver) {
+        super(resolver);
+    }
+
+    @Override
+    public Scene getStartScene() {
+        return new ExampleSceneA();
+    }
+
 }

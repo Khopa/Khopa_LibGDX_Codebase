@@ -2,9 +2,8 @@ package com.khopa.core.views.layers;
 
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.khopa.core.MCR;
+import com.khopa.core.MBC;
 import com.khopa.core.services.PR;
 import com.khopa.core.views.actors.SpriteActor;
 
@@ -28,7 +27,7 @@ public class BackgroundLayer extends Layer {
      */
 	public BackgroundLayer(String bgName) {
 		super();
-        AssetManager asm = MCR.getInstance().getAssetManager();
+        AssetManager asm = MBC.getInstance().getAssetManager();
         TextureAtlas backgrounds = asm.get(PR.treat("sheets/backgrounds.pack"), TextureAtlas.class);
         background = new SpriteActor(backgrounds.findRegion(bgName));
         this.addActor(background);
@@ -47,7 +46,7 @@ public class BackgroundLayer extends Layer {
      */
     public void setTextureBackground(String bgname){
         this.removeActor(background);
-        AssetManager asm = MCR.getInstance().getAssetManager();
+        AssetManager asm = MBC.getInstance().getAssetManager();
         TextureAtlas backgrounds = asm.get("data/gfx/hd/sheets/backgrounds.pack", TextureAtlas.class);
         this.background = new SpriteActor(backgrounds.findRegion(bgname));
         this.addActor(background);

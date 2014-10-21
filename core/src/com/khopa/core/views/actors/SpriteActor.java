@@ -35,6 +35,7 @@ public class SpriteActor extends Actor {
             batch.setColor(color);
         }
 
+        // Uncomment to debug 'hitbox'
         /*if(true){
             batch.end();
             Primitives.rect((int)this.getX(), (int)(this.getY()), (int) this.getWidth(), (int) this.getHeight(), PaletteManager.ICE_CREAM);

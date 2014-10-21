@@ -19,4 +19,9 @@
     for example.)
     -->
 
+    <Resource>
+        <Class>com.badlogic.gdx.graphics.g2d.TextureAtlas</Class>
+        <Path withResolver="true">sheets/backgrounds.pack</Path>
+    </Resource>
+
 </Resources>

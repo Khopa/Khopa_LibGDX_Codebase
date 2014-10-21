@@ -11,15 +11,18 @@ import com.khopa.core.services.configuration.controllers.ConfigurationService;
  * 
  * Configuration manager
  * 
+ * Deprecated, use the new libgdx preference api instead
+ * 
  * @author Clément Perreau
  *
  */
+@Deprecated
 public class ConfigurationServiceImpl extends ConfigurationService {
 
 	/**
 	 * Path to the conf file
 	 */
-	private final static String filePath = "Tap2Swim/Config/config.xml";
+	private final static String filePath = "KhopaEngine/Config/config.xml";
 	
 	/**
 	 * Root for xml conf file

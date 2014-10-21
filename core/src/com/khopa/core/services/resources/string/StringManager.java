@@ -52,12 +52,10 @@ public class StringManager {
 		
 		try {
 			Element data = xml.parse(file);
-			//System.out.println("Loading dictionnary " + filepath);
 			for(Element current:data.getChildrenByName("entry")){
 				String key = current.getAttribute("key");
 				String content = current.getAttribute("content");
 				stringDictionnary.put(key, content);
-				//System.out.println(key + " : " + content);
 			}
 			
 		} catch (IOException e) {

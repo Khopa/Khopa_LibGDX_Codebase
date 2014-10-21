@@ -4,7 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.khopa.core.AGC;
-import com.khopa.core.MCR;
+import com.khopa.core.MBC;
 import com.khopa.core.services.PR;
 import com.khopa.core.views.PaletteManager;
 import com.khopa.core.views.Primitives;
@@ -28,7 +28,7 @@ public class LoadingScene extends Scene{
 
     public LoadingScene(){
         Texture texture = null;
-        MCR.getInstance().resize(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        MBC.getInstance().resize(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         switch (AGC.getOrientation()){
             case Landscape:
                 texture = new Texture(Gdx.files.internal(PR.treat("sheets/loading_landscape.png")));

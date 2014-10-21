@@ -4,8 +4,12 @@ import java.util.HashMap;
 
 /**
  * This dictionnary helper class is used to store all kind of variables inside an HashMap
+ *
+ * NB : Not useful anymore with the new libgdx preferences class
+ *
  * @author Clément Perreau
  */
+@Deprecated
 public class PropertyDictionnary {
 
     /**

@@ -35,7 +35,7 @@ public class Scene extends Stage implements SceneInterface, GestureDetector.Gest
         // Do nothing
     }
 
-    // Gesture Adaptater //
+    // Gesture Adaptater for convenience //
 
     @Override
     public boolean touchDown(float x, float y, int pointer, int button) {
@@ -76,6 +76,9 @@ public class Scene extends Stage implements SceneInterface, GestureDetector.Gest
     public boolean pinch(Vector2 initialPointer1, Vector2 initialPointer2, Vector2 pointer1, Vector2 pointer2) {
         return false;
     }
+
+    // The following are convenient methods to position actors with % based coordinate
+    // Usefull to handle different screen resolution
 
     /**
      * Center the actor to the center of the screen

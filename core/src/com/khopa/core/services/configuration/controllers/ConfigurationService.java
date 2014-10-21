@@ -9,6 +9,7 @@ import com.khopa.core.utils.PropertyDictionnary;
  * @author Clément Perreau
  *
  */
+@Deprecated
 public abstract class ConfigurationService extends PropertyDictionnary {
 	
 	/**

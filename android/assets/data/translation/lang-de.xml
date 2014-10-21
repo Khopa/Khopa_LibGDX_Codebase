@@ -1,0 +1,11 @@
+<german>
+
+    <!-- General -->
+    <entry key = "yes"     content = "Ja"/>
+    <entry key = "no"      content = "Nein"/>
+
+    <!-- Scene -->
+    <entry key = "switchA" content = "Schalt zu szene A (Slide Transition)"/>
+    <entry key = "switchB" content = "Schalt zu szene B (Fade Transition)"/>
+
+</german>

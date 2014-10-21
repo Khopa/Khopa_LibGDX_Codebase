@@ -1,0 +1,11 @@
+<spanish>
+
+    <!-- General -->
+    <entry key = "yes"     content = "Si"/>
+    <entry key = "no"      content = "No"/>
+
+    <!-- Scene -->
+    <entry key = "switchA" content = "Cambiar a escena A (Slide Transition)"/>
+    <entry key = "switchB" content = "Cambiar a escena B (Fade Transition)"/>
+
+</spanish>

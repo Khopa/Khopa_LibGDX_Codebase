@@ -1,7 +1,7 @@
 package com.khopa.core.actions.transitions;
 
 import com.badlogic.gdx.scenes.scene2d.Action;
-import com.khopa.core.MCR;
+import com.khopa.core.MBC;
 import com.khopa.core.views.scene.Scene;
 
 /**
@@ -26,9 +26,9 @@ public abstract class SceneTransitionAction extends Action{
 	protected SceneTransition sceneTransition;
 	
 	public SceneTransitionAction(Scene newScene, float duration){
-		this.sceneTransition = new SceneTransition(MCR.getInstance().getCurrentScene(), newScene);
+		this.sceneTransition = new SceneTransition(MBC.getInstance().getCurrentScene(), newScene);
 		this.sceneTransition.addAction(this);
-        MCR.getInstance().setScene(this.sceneTransition);
+        MBC.getInstance().setScene(this.sceneTransition);
 		setDuration(duration);
 	}
 	
@@ -36,7 +36,7 @@ public abstract class SceneTransitionAction extends Action{
 	public boolean act(float delta) {
 		elapsedTime += delta;
 		if(elapsedTime >= duration){
-            MCR.getInstance().setScene(sceneTransition.getStopScene());
+            MBC.getInstance().setScene(sceneTransition.getStopScene());
 			return true;
 		}
 		return false;

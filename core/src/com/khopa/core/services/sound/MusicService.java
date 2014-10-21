@@ -16,12 +16,12 @@ public class MusicService {
 	protected static boolean ENABLED = true;
 	
 	/**
-	 * Musique actuelle
+	 * Current music
 	 */
 	protected static Music current;
 	
 	/**
-	 * Volume de la musique (0f-1f)
+	 * Music volume (0f-1f)
 	 */
 	protected static float volume = .5f;
 	

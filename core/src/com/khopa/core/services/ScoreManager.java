@@ -2,7 +2,7 @@ package com.khopa.core.services;
 
 import com.badlogic.gdx.Gdx;
 import com.khopa.core.CLT;
-import com.khopa.core.MCR;
+import com.khopa.core.MBC;
 
 /**
  * @author Clement Perreau
@@ -29,7 +29,7 @@ public class ScoreManager {
     public static void init(){
         ST_SCORE = 0;
         ST_BEST  = Gdx.app.getPreferences(CLT.ENGINE+ CLT.UUID).getInteger("BEST", 0);
-        MCR.getActionResolver().getUserScore();
+        MBC.getActionResolver().getUserScore();
     }
 
     /**
