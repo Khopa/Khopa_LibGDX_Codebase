@@ -204,8 +204,9 @@ PR.treat("my_nice_asset.png")
 
 ```
 
-A convenient python script to resize assets (.png Images and .pack TextureAtlas files) is available in the assets folder
-Python 2.7 and PIL are needed (build_gfx.py) You may include it to your gradle build.
+A convenient python script to resize assets (.png Images and .pack TextureAtlas files) is available in the assets folder.
+Python 2.7 and PIL are needed (build_gfx.py).
+You may include it to your gradle build.
 
 Assets like .fnt may still have to be resized manually
 
